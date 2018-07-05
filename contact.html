@@ -2,18 +2,20 @@
 title: Contact
 description: Send us a message to find out more!
 map:
-  latitude: -45.8787605
-  longitude: 170.5027976
-  address: "1 George Street, Dunedin, New Zealand"
-  zoom: 13
-image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
+  latitude:
+  longitude:
+  address:
+  zoom: 15
+image:
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<h1 class="editable">Get in touch today</h1>
-			<p class="subtext editable">If you have any questions or queries send us a message and we'll get back to you as soon as we can.</p>
+			<p class="subtext editable">
+				If you have any questions about booking send us a message and we'll get back to you as soon as we can.
+			</p>
 		</div>
 	</div>
 </section>
@@ -21,19 +23,19 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 <section class="pad">
 	<div class="text-container contact-box">
 		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-			<input type="hidden" name="_to" value="support@cloudcannon.com">
-			<input type="text" name="_gotcha" style="display: none;">
+			<input type="hidden" name="_to" value="support@cloudcannon.com" />
+			<input type="text" name="_gotcha" style="display: none;" />
 
 			<label for="name">Name</label>
-			<input type="text" name="name" id="name" placeholder="Enter your name...">
+			<input type="text" name="name" id="name" placeholder="Enter your name..." />
 
 			<label for="email">Email Address</label>
-			<input type="email" name="email" id="email" placeholder="Enter your email..." required>
+			<input type="email" name="email" id="email" placeholder="Enter your email..." required />
 
 			<label for="message">Message</label>
 			<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
 
-			<input type="submit" value="Send Message">
+			<input type="submit" value="Send Message" />
 		</form>
 
 		<div class="contact-details">
