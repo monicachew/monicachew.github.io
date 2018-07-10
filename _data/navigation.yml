@@ -1,2 +1,6 @@
+- name: Listen
+  link: /#listen
+- name: Reviews
+  link: /#reviews
 - name: Contact
-  link: /#contact/
+  link: /#contact
