@@ -1,24 +1,24 @@
 # ----
 # Site
 
-title: Frisco Template
+title: Monica Chew
 url: "https://brave-submarine.cloudvent.net"
-baseurl:
-google_analytics_key:
+baseurl: monicachew.com
+google_analytics_key: UA-122083170-1
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: App marketing template for Jekyll.
+description: Oakland pianist seeking to illuminate and entertain
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Frisco Template
-  links:
-    - https://github.com/CloudCannon/frisco-jekyll-template
+  name: Monica Chew
+#  links:
+#  - https://github.com/CloudCannon/frisco-jekyll-template
 
 # -----
 # Build
@@ -104,5 +104,5 @@ social_icons:
   - RSS
 
 _comments:
-  description: Text shown when sharing on social media
-  blurb: Short bio or description of this person
+  description: Oakland pianist seeking to illuminate and entertain
+  blurb: Oakland pianist seeking to illuminate and entertain
