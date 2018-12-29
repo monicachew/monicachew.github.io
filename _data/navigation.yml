@@ -1,6 +1,8 @@
 - name: Listen
-  link: /#listen
+  link: '/#listen'
 - name: Reviews
-  link: /#reviews
+  link: '/#reviews'
+- name: Upcoming
+  link: '/#upcoming'
 - name: Contact
-  link: /#contact
+  link: '/#contact'
